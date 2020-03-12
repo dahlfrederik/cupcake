@@ -23,3 +23,7 @@ td, th{
 a, li{
     color: var(--secondary-color)
 }
+
+.btn-style{
+    background-color: var(--primary-color);
+}
