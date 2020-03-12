@@ -23,3 +23,17 @@ td, th{
 a, li{
     color: var(--secondary-color)
 }
+
+.btn-style{
+    background-color: #f1324d;
+    width: 45%;
+}
+
+.overskrift-size{
+    font-size: 1.5em;
+}
+
+.dropdown-toggle{
+    width: 45%;
+    padding: 12px 16px;
+}
