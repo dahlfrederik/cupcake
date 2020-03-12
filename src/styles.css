@@ -1,0 +1,27 @@
+:root{
+    --primary-color: #f1324d;
+    --secondary-color: #f9e6b2 ;
+    --text-color: #00000;
+}
+
+
+
+.table-wrap {
+    min-height: 150%;
+    width: 150%;
+    overflow-y: auto;
+    border-style: solid;
+    border-color: var(--secondary-color);
+    background-color: var(--secondary-color);
+}
+
+td, th{
+    color: var(--primary-color);
+}
+
+.navbar{
+    background-color: var(--primary-color);
+}
+a, li{
+    color: var(--secondary-color)
+}
