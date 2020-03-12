@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
 
     <title>Cupcake</title>
 </head>
@@ -16,14 +17,14 @@
 
     <img src="hæv2.png" class="img-fluid"/>
 
-    <nav class="navbar navbar-expand-lg navbar-light mb-5" style="background-color: #f1324d">
-        <a class="navbar-brand" href="#" style="color: #f9e6b2">OLESKER CUPCAKES</a>
+    <nav class="navbar-expand-lg navbar mb-4">
+        <a class="navbar-brand" href="#">OLESKER CUPCAKES</a>
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item  ">
-                <a class="nav-link" href="#" style="color: #f9e6b2">LOGIN</a>
+            <li class="nav-item ">
+                <a class="nav-link" href="#">LOGIN</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link" href="#" style="color: #f9e6b2">KURV</a>
+                <a class="nav-link" href="#">KURV</a>
             </li>
         </ul>
     </nav>
@@ -31,12 +32,12 @@
     <div class="row">
         <div class="col-lg-1"></div>
         <div class="col-lg-3">
-            <div class="lavcupcake-size ml-5" style="font-size: 1.5em">
-            Lav din cupcake:
+            <div class="overskrift-size ml-5 mb-3">
+                Lav din cupcake:
             </div>
             <div class="dropdown mt-2 ml-5">
-                <a class="btn btn-secondary dropdown-toggle mb-2" href="#" role="button" id="dropdownMenuLink1"
-                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: #f1324d">
+                <a class="btn btn-danger dropdown-toggle mb-2" href="#" role="button" id="dropdownMenuLink1"
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Topping
                 </a>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -45,9 +46,9 @@
                     <a class="dropdown-item" href="#">Something else here</a>
                 </div>
 
-                <a class="btn btn-secondary dropdown-toggle mb-2 ml-4" href="#" role="button" id="dropdownMenuLink"
+                <a class="btn btn-danger dropdown-toggle mb-2 ml-4" href="#" role="button" id="dropdownMenuLink"
                    data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false" style="background-color: #f1324d">
+                   aria-haspopup="true" aria-expanded="false">
                     Bund
                 </a>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -60,13 +61,13 @@
 
 
         <div class="col-lg-4">
-            <img src="cupcake.png" class="img-fluid"/>
+            <img src="cupcake.png" class="img-fluid mb-5"/>
         </div>
 
 
         <div class="col-lg-3">
-            <div class="antal-bestilling" style="font-size: 1.5em">
-            Antal cupcakes til bestilling:
+            <div class="overskrift-size">
+                Antal cupcakes til bestilling:
             </div>
             <label for="validationDefault04"></label>
             <select class="custom-select" id="validationDefault04" required>
@@ -82,10 +83,8 @@
                 <option>9</option>
                 <option>10</option>
             </select>
-
-            <button type="button" class="btn btn-primary mt-2 mr-4" style="background-color: #f1324d">Læg i kurv</button>
-
-            <button type="button" class="btn btn-primary mt-2" style="background-color: #f1324d">Fortryd</button>
+            <button type="button" class="btn btn-danger btn-style mt-2 mr-4">Læg i kurv</button>
+            <button type="button" class="btn btn-danger btn-style mt-2">Fortryd</button>
         </div>
         <div class="col-lg-1"></div>
     </div>
