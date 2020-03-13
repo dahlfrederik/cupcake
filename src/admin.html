@@ -72,34 +72,32 @@
                     </tbody>
                 </table>
                 </div>
-                <button type="button" class="btn btn-outline-danger mt-2">
+                <button type="button" class="btn btn-danger btn-style mt-2">
                     Slet ordre
                 </button>
             </div>
             <div class="col-2" ></div>
-            <div class="col-4" >
-                <form>
-                    <div class="form-row align-items-center">
-                        <div class="col-auto">
-                            <label class="sr-only" for="inlineFormInput">Name</label>
-                            <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Jane Doe">
+            <div class="col-5" >
+                <form action="FrontController" method="post">
+                    <input type="hidden" name="taget" value="opdatersaldo"/>
+                    <div class="form-row">
+                        <div class="col-5">
+                            <input type="text" name="saldo" class="form-control" placeholder="Indsæt saldo">
                         </div>
-                        <div class="col-auto">
-                            <label class="sr-only" for="inlineFormInputGroup">Username</label>
-                            <div class="input-group mb-2">
-                                <div class="input-group-prepend">
-                                    <div class="input-group-text">@</div>
-                                </div>
-                                <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
-                            </div>
-                        </div>
-                        <div class="col-auto">
-                            <button type="submit" class="btn btn-danger btn-style mb-2">Opdater saldo</button>
+                        <div class="col-5">
+                            <input type="text" name="brugernavn" class="form-control" placeholder="Brugernavn">
                         </div>
                     </div>
+                    <button type="button" class="btn btn-danger btn-style mt-4">
+                        Opdater saldo
+                    </button>
                 </form>
+
+
+
             </div>
-        </div>
+        </div> <!-- row -->
+
     </div>
 
 
