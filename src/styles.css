@@ -27,6 +27,7 @@ a, li{
 .btn-style{
     background-color: var(--primary-color);
     width: 45%;
+
 }
 
 .overskrift-size{
@@ -38,3 +39,9 @@ a, li{
     padding: 12px 16px;
 
 }
+
+.mydropdown{
+
+}
+
+

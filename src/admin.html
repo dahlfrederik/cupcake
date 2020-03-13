@@ -21,12 +21,36 @@
     <nav class="navbar-expand-lg navbar">
         <a class="navbar-brand" href="#">Olesker Cupcakes management</a>
         <ul class="navbar-nav ml-auto">
+            <!-- https://www.tutorialrepublic.com/snippets/preview.php?topic=bootstrap&file=navbar-dropdown-login-and-signup-form-with-social-buttons -->
             <li class="nav-item ">
-                <a class="nav-link" href="#">Login</a>
+            <a data-toggle="dropdown" class="nav-link dropdown-toggle  " href="#">Login</a>
+                <ul class="dropdown-menu form-wrapper dropdown-menu-right mydropdown">
+                    <li>
+                        <form action="frontcontroller" method="post">
+                            <div class="form-group ml-2 mr-2">
+                                <input type="text" class="form-control" placeholder="Brugernavn" required="required">
+                            </div>
+                            <div class="form-group ml-2 mr-2">
+                                <input type="password" class="form-control" placeholder="Kodeord" required="required">
+                            </div>
+                            <div class="form-footer text-center">
+                            <input type="submit" class="btn btn-danger btn-style " value="Login">
+                            </div>
+                            <div class="form-footer text-center">
+                                <a href="#">Glemt dit kodeord?</a>
+                            </div>
+
+                        </form>
+                    </li>
+                </ul>
+            </li>
             </li>
             <li class="nav-item ">
                 <a class="nav-link" href="#">Kurv</a>
             </li>
+
+
+
         </ul>
     </nav>
 
